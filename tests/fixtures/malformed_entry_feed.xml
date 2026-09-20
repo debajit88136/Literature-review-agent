@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <id>http://arxiv.org/abs/2401.11111v1</id>
+    <published>not-a-date</published>
+    <title>Broken entry: bad date</title>
+    <summary>This entry should be skipped.</summary>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.22222v1</id>
+    <published>2024-03-03T00:00:00Z</published>
+    <title>Good entry that must survive</title>
+    <summary>Fine.</summary>
+    <author><name>Zed Survivor</name></author>
+  </entry>
+</feed>

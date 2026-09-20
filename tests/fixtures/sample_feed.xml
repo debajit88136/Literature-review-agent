@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title type="html">ArXiv Query: search_query=all:hallucination AND all:detection</title>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00001v2</id>
+    <updated>2024-02-01T10:00:00Z</updated>
+    <published>2024-01-01T09:30:00Z</published>
+    <title>Example Paper: Detecting Hallucinations
+  with Sampling Consistency</title>
+    <summary>  We study whether sampled answers agree with each other.
+  Low agreement signals hallucination.</summary>
+    <author><name>Alice Example</name></author>
+    <author><name>Bob Sample</name></author>
+    <author><name>Carol Test</name></author>
+    <author><name>Dan Fixture</name></author>
+    <link href="http://arxiv.org/abs/2401.00001v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2401.00001v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9901001v1</id>
+    <updated>1999-01-05T12:00:00Z</updated>
+    <published>1999-01-05T12:00:00Z</published>
+    <title>Another Example Paper With An Old-Style Identifier</title>
+    <summary>Old-style ids contain a slash. There is no explicit pdf link here.</summary>
+    <author><name>Eve Legacy</name></author>
+    <link href="http://arxiv.org/abs/hep-th/9901001v1" rel="alternate" type="text/html"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
